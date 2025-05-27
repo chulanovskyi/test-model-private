@@ -1,0 +1,252 @@
+{
+  "modelName": "New model",
+  "collections": [
+    {
+      "collectionName": "New entity",
+      "type": "object",
+      "properties": [
+        {
+          "name": "New attribute",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "alternateKey": false,
+          "x-pii": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "96c59ba6-3573-437c-92e8-e83617079800",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "48c7a6c1-c133-4e68-a58d-8d029bf5e0b3"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "GUID": "96affd85-6ca7-453b-a513-9ac7fdd0c3d4",
+      "bucketId": "24cd9ad5-6ed8-4e76-b660-9b0941c340f2"
+    },
+    {
+      "collectionName": "New entity1",
+      "type": "object",
+      "properties": [
+        {
+          "name": "New attribute",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "alternateKey": false,
+          "x-pii": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "9d406f96-8d4f-48bb-86b8-7373743e0d71",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "New attribute1",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "alternateKey": false,
+          "x-pii": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "fb0d3277-6f2a-4464-9113-44519afdfa8c",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "f129aa8f-af7b-4408-aed0-994200b8d5b3"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "GUID": "a2f61f06-bc3c-44d5-bc90-8c8e7384d502",
+      "bucketId": "24cd9ad5-6ed8-4e76-b660-9b0941c340f2"
+    }
+  ],
+  "buckets": [
+    {
+      "name": "New container",
+      "type": "bucket",
+      "collectionIds": [
+        "96affd85-6ca7-453b-a513-9ac7fdd0c3d4",
+        "a2f61f06-bc3c-44d5-bc90-8c8e7384d502"
+      ],
+      "backgroundColor": {
+        "r": 187,
+        "g": 187,
+        "b": 187,
+        "a": 1
+      },
+      "show": true,
+      "isActivated": true,
+      "indexes": [],
+      "GUID": "24cd9ad5-6ed8-4e76-b660-9b0941c340f2"
+    }
+  ],
+  "views": [],
+  "relationships": [],
+  "users": [],
+  "diagramViews": [],
+  "idToNameHashTable": {
+    "24cd9ad5-6ed8-4e76-b660-9b0941c340f2": "New container",
+    "96affd85-6ca7-453b-a513-9ac7fdd0c3d4": "New entity",
+    "96c59ba6-3573-437c-92e8-e83617079800": "New attribute",
+    "a2f61f06-bc3c-44d5-bc90-8c8e7384d502": "New entity1",
+    "9d406f96-8d4f-48bb-86b8-7373743e0d71": "New attribute",
+    "fb0d3277-6f2a-4464-9113-44519afdfa8c": "New attribute1"
+  },
+  "definitions": {
+    "type": "definitions",
+    "properties": [],
+    "GUID": "b2e5258f-a7fb-47e9-a58a-c0a0ce2fc8b3"
+  },
+  "polyglotDefinitions": {
+    "type": "polyglotDefinitions",
+    "properties": [],
+    "GUID": "711ff08f-0eb1-44d6-a542-223ef95aacdb"
+  },
+  "externalDefinitions": {
+    "type": "externalDefinitions",
+    "properties": [],
+    "GUID": "4359c90f-43a6-490d-bdb8-3aca67ceef07"
+  },
+  "sources": [],
+  "decorativeSymbols": [],
+  "dbVendor": "Polyglot",
+  "appTarget": "Polyglot",
+  "creationTS": "2025-05-27T10:56:24.890Z",
+  "GUID": "425cf175-683d-4996-a9de-b0a9ccf76928",
+  "isLineageEnabled": false,
+  "lastModifTS": "2025-05-27T10:56:28.072Z",
+  "persistenceSchemaVersion": "8",
+  "isCreatedByPlugin": true,
+  "pluginInformation": {
+    "pluginName": "Polyglot",
+    "pluginVersion": "0.0.1",
+    "pluginEngineVersion": "1.0.0"
+  },
+  "applicationInformation": {
+    "version": "8.1.9"
+  },
+  "settings": {
+    "centralPane": {
+      "dbLevel": {
+        "erd": [
+          {
+            "GUID": "96affd85-6ca7-453b-a513-9ac7fdd0c3d4",
+            "x": 1080,
+            "y": 1080,
+            "width": 210,
+            "height": 50,
+            "color": {
+              "hex": "#2196F3"
+            }
+          },
+          {
+            "GUID": "a2f61f06-bc3c-44d5-bc90-8c8e7384d502",
+            "x": 1211,
+            "y": 1207,
+            "width": 217,
+            "height": 68,
+            "color": {
+              "hex": "#2196F3"
+            }
+          }
+        ],
+        "erdDefinitions": {
+          "erd": [],
+          "rootPath": [],
+          "entities": [],
+          "decorativeSymbols": []
+        },
+        "buckets": [
+          {
+            "x": 1040,
+            "y": 1040,
+            "GUID": "24cd9ad5-6ed8-4e76-b660-9b0941c340f2"
+          }
+        ],
+        "collapsedNodes": [],
+        "activeRelationship": "",
+        "activeRelationshipFields": {
+          "childField": [],
+          "parentField": []
+        },
+        "selectedCollections": [],
+        "displayColorPicker": false,
+        "graphView": {
+          "erd": [
+            {
+              "GUID": "96affd85-6ca7-453b-a513-9ac7fdd0c3d4",
+              "size": 100,
+              "x": 1080,
+              "y": 1080
+            },
+            {
+              "GUID": "a2f61f06-bc3c-44d5-bc90-8c8e7384d502",
+              "size": 100,
+              "x": 1211,
+              "y": 1207
+            }
+          ],
+          "buckets": [
+            {
+              "x": 1040,
+              "y": 1040,
+              "GUID": "24cd9ad5-6ed8-4e76-b660-9b0941c340f2"
+            }
+          ],
+          "decorativeSymbols": [],
+          "forceLayout": true,
+          "defaultLinkLength": 300
+        },
+        "diagramViews": [],
+        "decorativeSymbols": [],
+        "nestedCollectionsLayout": "horizontal",
+        "options": [],
+        "relationshipUpdateDisabled": false
+      },
+      "collectionLevel": {},
+      "changed": false
+    },
+    "dtDiagram": {
+      "collapsedNodes": [],
+      "shouldDistributeCollections": false
+    }
+  }
+}
